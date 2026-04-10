@@ -60,12 +60,12 @@ endmodule
 
 ### Changes in path of (dc_script.tcl): -
 ```
-set DESIGN_NAME "pow2_3bit"
+set DESIGN_NAME "alu_4bit"
 set RTL_DIR "../RTL/"
 set CONSTRAINTS_FILE "../constraints/pow2_3bit.sdc"
 
 read_verilog [list
-$RTL_DIR/pow2_3bit.v
+$RTL_DIR/alu_4bit.v
 ]
 
 compile_ultra
